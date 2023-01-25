@@ -4,14 +4,14 @@ import React from "react";
 const CardBase = ()=>{
     return (
 
-        <Card>
+        <Card maxWidth='max-w-sm'>
             <Text>Sales</Text> 
             <Metric>$71.2</Metric>
-            <Flex>
+            <Flex marginTop='mt-4'>
                 <Text>32% PAX</Text>
                 <Text>$255.000</Text>
             </Flex>
-            <ProgressBar percentageValue={30}/>
+            <ProgressBar percentageValue={30} marginTop="mt-2"/>
         </Card>
 
     )
